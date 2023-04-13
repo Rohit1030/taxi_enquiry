@@ -1,0 +1,32 @@
+{
+    "hero": [
+        {
+            "id": 1,
+            "image": "https://images.squarespace-cdn.com/content/v1/55c91d0de4b042fd77514223/1600862226700-DP5I8D7VYVRG1X94HAH5/Bride%2Band%2BGroom.jpg?format=2500w",
+            "heading": "WEDDING TRANSPORT",
+            "subheading": "COMFORTABLE TRANSFERS FOR ALL YOUR WEDDING GUESTS",
+            "aboutservice":"Planning a wedding? Organise transport for your guests between venues in advance and enjoy the day knowing all transfers are taken care of. Maxi Taxi Perth provides outstanding wedding transportation services 24/7 at an affordable price. Forget about expensive limos. Book clean wedding cars at normal taxi rates. Our experienced chauffeurs can transport up to 200 wedding guests. Get in touch and we’ll give you a set price for all the wedding transport you need."
+        },
+        {
+            "id": 2,
+            "image": "https://www.vtomhub.tech/assets/images/blog/1.jpg",
+            "heading": "QUICK TAXI",
+            "subheading": "7/10/13 SEATERS FOR GROUP TRANSFERS , BIKES , WHEELCHAIRS.",
+            "aboutservice": "If you need one or several maxi taxis in the Greater Perth area, call Maxi Taxi Perth. While we have a diverse fleet of taxis, maxi taxis are our specialty. We have a range of 10-seater and 13-seater taxis as well as 7-seater Taragos. Whether you need corporate transfers, taxi services for conferences, school excursions, concerts, parties such as hens and bucks nights, or transport for wheelchairs, bicycles or surfboards, we can easily organise any maxi taxi services to suit your needs."
+        },
+        {
+            "id": 3,
+            "image": "https://i2-prod.mirror.co.uk/incoming/article6334226.ece/ALTERNATES/s1200/Baby-who-lies-in-child-seat-in-car.jpg",
+            "heading": "BABY CAPSULE",
+            "subheading": "TRAVELLING WITH BUB ? BOOK A TAXI WITH A BABY SEAT.",
+            "aboutservice": "Travelling with a baby or toddler? Book a taxi with Maxi Taxi Perth. If you don’t have your baby capsule, don’t worry: we will send a taxi with a baby seat that meets all government regulations. Your child’s safety and comfort are our priority. Our experienced drivers will strap it in correctly and securely if you have your child seat or booster seat. All our taxis have approved anchor points to restrain baby seats safely. Our baby capsules and child seats are available to use free of charge."
+        },
+        {
+            "id": 4,
+            "image": "https://readesh.com/wp-content/uploads/2021/07/airport-transportation.jpg",
+            "heading": "AIRPORT TRANSFERS",
+            "subheading": "TAXI TO/FROM PERTH AIRPORT - NO SURCHARGE.NO CALL OUT FEE",
+            "aboutservice":"Airport transfers can be daunting, so much so that people often look for support from their families when arriving or departing from any airport terminal. But reliable taxi services are changing this scenario with their easy pick-up and drop services in the Perth suburban area. Whether someone is arriving early morning or later in the night, these fast taxi services can be trusted with hassle-free transportation to and from Perth city."
+        }
+    ]
+}

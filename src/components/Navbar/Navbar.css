@@ -1,0 +1,154 @@
+/* Common Width*/
+:root {
+    --color-pink: #ee4c7c;
+}
+
+
+.navbar {
+    padding: 0.7rem 0;
+    box-shadow: 0 5px 10px -3px black;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+
+.nav-content {
+    
+     /* large view */
+     justify-content: space-between;
+}
+
+#taxi-logo {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+#quick {
+    color: var(--color-pink);
+}
+
+.nav-book-btn,
+.ant-drawer-content {
+    background-color: var(--color-pink) !important; 
+}
+
+.nav-book-btn {
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 0.3rem;
+    /* large view */
+    width: 200px;
+    font-size: 14px !important;
+}
+
+#call-logo {
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+/* large view */
+.name {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.nav-logo-name, 
+.nav-content, 
+.btn-section-one, 
+.links {
+    display: flex;
+    align-items: center;
+}
+
+.btn-section-one {
+    /* large view */
+    /* margin: 0 auto; */
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+    margin: 0 !important;
+}
+
+a,
+a:focus
+a:hover,
+a:active {
+    text-decoration: none;
+    color: inherit
+}
+
+.nav-link {
+    font-size: 14px;
+    padding-bottom: 0.2rem;
+}
+
+.menu-link {
+    padding: 1rem 0;
+}
+
+/* large view */
+.link + .link {
+    margin-left: 22px;  
+}
+
+#menu-icon {
+    display: none;
+}
+
+.ant-drawer-content-wrapper {
+    width: 80% !important;
+    max-width: 378px !important;
+}
+
+.ant-drawer-close, 
+.ant-drawer-content-wrapper {
+    color: white;
+}
+
+.link > .active {
+    border-bottom: 2px solid var(--color-pink);
+}
+
+@media (max-width: 989.9px) {
+    .nav-links {
+        display: none;
+    }
+
+    .nav-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #menu-icon {
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 19.5px;
+        transform: translateY(-50%);
+        font-size: 25px;
+    }
+
+    .nav-book-btn {
+        position: absolute;
+        bottom: -33.5px;
+        left: 0;
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 285.15px;
+    }
+
+    .btn-section-one {
+        margin-right: 10px;
+    }
+
+    .nav-logo-name {
+        transform: scale(75%);
+    }
+}

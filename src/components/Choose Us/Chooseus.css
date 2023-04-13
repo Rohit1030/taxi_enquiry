@@ -1,0 +1,45 @@
+.why-us-icons {
+    width: 45%;
+    border: 1.2px solid rgb(206, 206, 206);
+    padding: 1.3rem 0.7rem;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.why-us-icons > h4 {
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.why-us-icons {
+    margin-top: 1rem;
+}
+
+.why-us-icons > div {
+    background-color: #ee4c7c;
+    padding: 0.7rem 0;
+    width: 80%;
+    max-width: 100px;
+    border-radius: 10px;
+    margin: 0 auto 0.5rem auto;
+}
+
+.why-us-icons > div > .icon {
+    font-size: 40px;
+    color: white;
+    margin: 0 auto;
+}
+
+@media (min-width: 803.9px) {
+    .why-choose-icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .why-us-icons {
+        width: 18%;
+        margin-top: 0;
+    }
+}

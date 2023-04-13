@@ -1,0 +1,61 @@
+input,
+button,
+textarea,
+select {
+	padding: 0;
+	background: none;
+	border: none;
+	border-radius: 0;
+	outline: none;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+    display: block;
+}
+
+.book-form{
+    position: relative;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.55), rgba(0,0,0,0.55)) ,url("https://i0.wp.com/w42st.com/wp-content/uploads/2022/09/david-becker-6rWCc5h7Y7o-unsplash.jpg?resize=1024%2C541&ssl=1");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.form-input, #textarea {
+    background-color: white;
+    padding: 0.5rem 0.7rem;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-input + .form-input, #textarea {
+    margin-top: 1.2rem;
+}
+
+#booking-form {
+    width: 90%;
+    margin: 0 auto 0 auto;
+    max-width: 417.2px;
+}
+
+#submit-btn {
+    background-color: white;
+    color: #ee4c7c;
+    padding: 0.8rem 2rem;
+    border-radius: 5px;
+    margin: 1.2rem  auto 0 auto;
+    cursor: pointer;
+}
+
+.book-form > .common-width > h1 {
+    color: white;
+    margin-bottom: 1rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 3.5px solid #ee4c7c;
+    width: fit-content;
+}
+
+.book-form > .common-width {
+    padding: 1.2rem 0;
+}

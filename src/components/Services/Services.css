@@ -1,0 +1,71 @@
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #B24592 0%, #F15F79  51%, #B24592  100%);
+    /* margin-bottom: 20px; */
+    padding: 0.6rem 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 5px;
+    display: block;
+    border: none;
+    font-size: 12px;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.service-container:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.service-img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+.about-service > h2 {
+    width: fit-content;
+    padding-bottom: 0.3rem;
+    border-bottom: 2px solid #ee4c7c;
+    margin: 18px auto 18px auto;
+}
+
+.services > h1 {
+    font-weight: 500;
+    padding-top: 2rem;
+    padding-bottom: 0.2rem;
+    border-bottom: 3.5px solid #ee4c7c;
+    font-size: 32px;
+    width: fit-content;
+    margin: 0 auto 30px auto;
+}
+
+@media (min-width: 990px){
+    .about-service {
+        padding: 1.3rem;
+    }
+
+    .service-img-container, .about-service {
+        width: 50%;
+    }
+
+    .service-container {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media (max-width: 989.9px) {
+    .service-container + .service-container {
+        margin-top: 18px;
+    }
+}
