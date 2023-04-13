@@ -16,11 +16,7 @@ const Navbar = () => {
   const onClose = () => {
     setOpen(false);
   };
-
-  let navLogoName = document.querySelector('.nav-logo-name');
-  navLogoName.addEventListener("click", function(){
-    scroll.scrollToTop(); 
-  })
+  
   return (
     <>
       <Drawer title="" placement="right" onClose={onClose} open={open}>
